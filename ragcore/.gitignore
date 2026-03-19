@@ -1,0 +1,29 @@
+  # Python
+  __pycache__/
+  *.py[cod]
+  *.so
+  *.egg-info/
+  dist/
+  build/
+
+  # Virtual environment
+  .venv/
+  venv/
+
+  # Secrets - NEVER commit
+  ragcore/.env
+
+  # IDE
+  .vscode/
+  .idea/
+
+  # OS
+  .DS_Store
+  Thumbs.db
+
+  # Caches
+  flashrank_cache/
+  .cache/
+  .pytest_cache/
+  htmlcov/
+  .coverage
